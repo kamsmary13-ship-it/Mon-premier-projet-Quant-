@@ -1,30 +1,23 @@
-# CYBER COFFRE-FORT - KAMS QUANT CAPITAL
-# Mission : Protéger la liste des clients du Hedge Fund
+# KAMS QUANT CAPITAL - Abidjan 🇨🇮
+### Premier Hedge Fund Quant & Cyber pour le Cacao
 
-def chiffrer_donnee(texte):
-    # Chiffrement ultra-simple mais efficace (comme les vrais Hedge Funds au début)
-    secret = ""
-    for lettre in texte:
-        secret += str(ord(lettre)) + "-"
-    return secret
+**Mission :** Aider 100 coopératives ivoiriennes à vendre au meilleur prix.
 
-def dechiffrer_donnee(secret):
-    # Pour toi seule, tu peux retrouver les vrais noms
-    original = ""
-    codes = secret.split("-")
-    for code in codes:
-        if code != "":
-            original += chr(int(code))
-    return original
+**Fondatrice :** Mary Kams - Abidjan
 
-print("=== CYBER COFFRE-FORT KAMS ===")
-nom = input("Tape le nom du client à PROTÉGER : ")
-nom_chiffre = chiffrer_donnee(nom)
+### 📈 Le Problème
+80% des cultivateurs vendent trop tôt et perdent 300 000F par récolte.
 
-print(f"\n⛔ Pour les hackers, ils voient : {nom_chiffre}")
-print(f"✅ Pour toi, tu sais que c'est : {nom}")
-print(f"\nTu peux sauvegarder {nom_chiffre} dans ton GitHub, même si un hacker vole ton GitHub, il ne saura pas qui est ton client !")
+### 🤖 Ma Solution - 3 Robots
 
-# Test avec ton client Koffi
-print("\n--- Exemple avec Koffi ---")
-print(f"Koffi chiffré = {chiffrer_donnee('Koffi')}")
+1.  **QUANT PREDICTION** (`Robot_semaine.py`) - Prédit si le prix va monter ou descendre.
+2.  **HEDGE FUND 100 CLIENTS** (`Kam's hedge fund 100. clients.py`) - Gère 100 clients et calcule ma commission de 10%.
+3.  **CYBER COFFRE-FORT** (`Cyber coffre fort.py`) - Chiffre les noms des clients pour les protéger.
+
+### 📊 Traction
+- 8 robots codés en Python sur téléphone
+- Objectif : 10 coopératives clientes
+
+### 📬 Contact
+WhatsApp : +225 [0503005270]
+Je cherche 3 coopératives pilotes pour tester gratuitement 7 jours.
